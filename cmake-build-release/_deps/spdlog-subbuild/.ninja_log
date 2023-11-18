@@ -1,0 +1,21 @@
+# ninja log v5
+0	14	1700307324611486534	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	114473a4e22de9d9
+0	14	1700307324611486534	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	114473a4e22de9d9
+14	11287	1700307335884135953	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	e168fab2677b3ddc
+14	11287	1700307335884135953	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	e168fab2677b3ddc
+11287	12063	0	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	9b1998475b2b78b
+11287	12063	0	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	9b1998475b2b78b
+12063	12076	1700307336673284253	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	ba3246e87b23f509
+12063	12076	1700307336673284253	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	ba3246e87b23f509
+12076	12089	1700307336686350568	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	4b01466544b03a14
+12076	12089	1700307336686350568	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	4b01466544b03a14
+12089	12102	1700307336698695374	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	ec24c6be51cf79d2
+12089	12102	1700307336698695374	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	ec24c6be51cf79d2
+12102	12114	1700307336711041305	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	788911264e9f2b88
+12102	12114	1700307336711041305	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	788911264e9f2b88
+12114	12126	1700307336722741812	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	2a71ddfc2cd01028
+12114	12126	1700307336722741812	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	2a71ddfc2cd01028
+12126	12142	1700307336739207123	CMakeFiles/spdlog-populate-complete	732215ac9106796b
+12126	12142	1700307336739207123	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	732215ac9106796b
+12126	12142	1700307336739207123	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete	732215ac9106796b
+12126	12142	1700307336739207123	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	732215ac9106796b

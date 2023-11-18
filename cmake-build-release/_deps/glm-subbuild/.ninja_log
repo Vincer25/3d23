@@ -1,0 +1,21 @@
+# ninja log v5
+0	15	1700307296800424833	glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	8d05b85e9096b5c6
+0	15	1700307296800424833	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	8d05b85e9096b5c6
+15	25453	1700307322237955199	glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	dce958173029ce13
+15	25453	1700307322237955199	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	dce958173029ce13
+25453	27624	0	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	98b6dc8026cdc04b
+25453	27624	0	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	98b6dc8026cdc04b
+27624	27641	1700307324426235627	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	3e93f9798fe6d8ae
+27624	27641	1700307324426235627	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	3e93f9798fe6d8ae
+27641	27657	1700307324442348552	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	aedb86c6df78b681
+27641	27657	1700307324442348552	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	aedb86c6df78b681
+27657	27672	1700307324457042375	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	4d5cce7bdffa7ea2
+27657	27672	1700307324457042375	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	4d5cce7bdffa7ea2
+27672	27687	1700307324472427040	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	7f4588fef8f401b3
+27672	27687	1700307324472427040	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	7f4588fef8f401b3
+27687	27700	1700307324485325005	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	eeb2d46401c4d056
+27687	27700	1700307324485325005	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	eeb2d46401c4d056
+27700	27718	1700307324503290788	CMakeFiles/glm-populate-complete	4eef245adfb10b8a
+27700	27718	1700307324503290788	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	4eef245adfb10b8a
+27700	27718	1700307324503290788	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	4eef245adfb10b8a
+27700	27718	1700307324503290788	/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	4eef245adfb10b8a
