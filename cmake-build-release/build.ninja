@@ -56,8 +56,6 @@ build CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o: C_COMPILER
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include
   OBJECT_DIR = CMakeFiles/glad.dir
   OBJECT_FILE_DIR = CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src
-  TARGET_COMPILE_PDB = CMakeFiles/glad.dir/
-  TARGET_PDB = ""
 
 
 
@@ -235,8 +233,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.o: C_COMPILER__glfw_uns
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -245,8 +241,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_unscan
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -255,8 +249,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_unsca
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -265,8 +257,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_uns
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -275,8 +265,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.o: C_COMPILER__glfw_un
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -285,8 +273,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_unsc
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -295,8 +281,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_unsc
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -305,8 +289,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -315,8 +297,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__g
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -325,8 +305,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.o: C_COMPILER__glfw_u
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -335,8 +313,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.o: C_COMPILER__glf
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -345,8 +321,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.o: C_COMPILER__glfw
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -355,8 +329,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.o: C_COMPILER__gl
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_time.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/cocoa_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -365,8 +337,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_time.c.o: C_COMPILER__glfw_
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/posix_module.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/posix_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -375,8 +345,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/posix_module.c.o: C_COMPILER__glf
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/posix_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -385,8 +353,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glf
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/cocoa_init.m || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -395,8 +361,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o: C_COMPILER__glfw_
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/cocoa_joystick.m || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -405,8 +369,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: C_COMPILER__g
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/cocoa_monitor.m || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -415,8 +377,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: C_COMPILER__gl
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/cocoa_window.m || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -425,8 +385,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o: C_COMPILER__glf
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o: C_COMPILER__glfw_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src/nsgl_context.m || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG -D_GLFW_COCOA
@@ -435,8 +393,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o: C_COMPILER__glf
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
 
 
 # =============================================================================
@@ -452,9 +408,8 @@ build _deps/glfw-build/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Release _de
   OBJECT_DIR = _deps/glfw-build/src/CMakeFiles/glfw.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = _deps/glfw-build/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_FILE = _deps/glfw-build/src/libglfw3.a
-  TARGET_PDB = _deps/glfw-build/src/libglfw3.pdb
+  TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
@@ -696,8 +651,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: CXX_COMPILER__s
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlog.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/src/stdout_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -706,8 +659,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o: CXX_COMPI
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlog.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/src/color_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -716,8 +667,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: CXX_COMPIL
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlog.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/src/file_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -726,8 +675,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: CXX_COMPILE
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlog.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/src/async.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -736,8 +683,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o: CXX_COMPILER__sp
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlog.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/src/cfg.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -746,8 +691,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o: CXX_COMPILER__spdl
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlog.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/src/bundled_fmtlib_format.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -756,8 +699,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o: 
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir/src
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
-  TARGET_PDB = _deps/spdlog-build/libspdlog.pdb
 
 
 # =============================================================================
@@ -773,9 +714,8 @@ build _deps/spdlog-build/libspdlog.a: CXX_STATIC_LIBRARY_LINKER__spdlog_Release 
   OBJECT_DIR = _deps/spdlog-build/CMakeFiles/spdlog.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = _deps/spdlog-build/CMakeFiles/spdlog.dir/spdlog.pdb
   TARGET_FILE = _deps/spdlog-build/libspdlog.a
-  TARGET_PDB = _deps/spdlog-build/libspdlog.pdb
+  TARGET_PDB = spdlog.a.dbg
 
 
 #############################################
@@ -863,8 +803,6 @@ build src/Application/CMakeFiles/application.dir/application.cpp.o: CXX_COMPILER
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/Application/CMakeFiles/application.dir
   OBJECT_FILE_DIR = src/Application/CMakeFiles/application.dir
-  TARGET_COMPILE_PDB = src/Application/CMakeFiles/application.dir/application.pdb
-  TARGET_PDB = src/Application/libapplication.pdb
 
 build src/Application/CMakeFiles/application.dir/utils.cpp.o: CXX_COMPILER__application_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Application/utils.cpp || cmake_object_order_depends_target_application
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -873,8 +811,6 @@ build src/Application/CMakeFiles/application.dir/utils.cpp.o: CXX_COMPILER__appl
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/Application/CMakeFiles/application.dir
   OBJECT_FILE_DIR = src/Application/CMakeFiles/application.dir
-  TARGET_COMPILE_PDB = src/Application/CMakeFiles/application.dir/application.pdb
-  TARGET_PDB = src/Application/libapplication.pdb
 
 build src/Application/CMakeFiles/application.dir/shader_source.cpp.o: CXX_COMPILER__application_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Application/shader_source.cpp || cmake_object_order_depends_target_application
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -883,8 +819,6 @@ build src/Application/CMakeFiles/application.dir/shader_source.cpp.o: CXX_COMPIL
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/Application/CMakeFiles/application.dir
   OBJECT_FILE_DIR = src/Application/CMakeFiles/application.dir
-  TARGET_COMPILE_PDB = src/Application/CMakeFiles/application.dir/application.pdb
-  TARGET_PDB = src/Application/libapplication.pdb
 
 
 # =============================================================================
@@ -900,9 +834,8 @@ build src/Application/libapplication.a: CXX_STATIC_LIBRARY_LINKER__application_R
   OBJECT_DIR = src/Application/CMakeFiles/application.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/Application/CMakeFiles/application.dir/application.pdb
   TARGET_FILE = src/Application/libapplication.a
-  TARGET_PDB = src/Application/libapplication.pdb
+  TARGET_PDB = application.a.dbg
 
 
 #############################################
@@ -990,8 +923,6 @@ build src/ObjectReader/CMakeFiles/objreader.dir/obj_reader.cpp.o: CXX_COMPILER__
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/ObjectReader/CMakeFiles/objreader.dir
   OBJECT_FILE_DIR = src/ObjectReader/CMakeFiles/objreader.dir
-  TARGET_COMPILE_PDB = src/ObjectReader/CMakeFiles/objreader.dir/objreader.pdb
-  TARGET_PDB = src/ObjectReader/libobjreader.pdb
 
 
 # =============================================================================
@@ -1007,9 +938,8 @@ build src/ObjectReader/libobjreader.a: CXX_STATIC_LIBRARY_LINKER__objreader_Rele
   OBJECT_DIR = src/ObjectReader/CMakeFiles/objreader.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/ObjectReader/CMakeFiles/objreader.dir/objreader.pdb
   TARGET_FILE = src/ObjectReader/libobjreader.a
-  TARGET_PDB = src/ObjectReader/libobjreader.pdb
+  TARGET_PDB = objreader.a.dbg
 
 
 #############################################
@@ -1097,8 +1027,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.o: CXX_COMPILER__x
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
   OBJECT_FILE_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
-  TARGET_COMPILE_PDB = src/XeEngine/CMakeFiles/xe-engine.dir/xe-engine.pdb
-  TARGET_PDB = src/XeEngine/libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.o: CXX_COMPILER__xe-engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/XeEngine/Scene.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1107,8 +1035,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.o: CXX_COMPILER__xe-engine
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
   OBJECT_FILE_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
-  TARGET_COMPILE_PDB = src/XeEngine/CMakeFiles/xe-engine.dir/xe-engine.pdb
-  TARGET_PDB = src/XeEngine/libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.o: CXX_COMPILER__xe-engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/XeEngine/Mesh.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1117,8 +1043,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.o: CXX_COMPILER__xe-engine_
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
   OBJECT_FILE_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
-  TARGET_COMPILE_PDB = src/XeEngine/CMakeFiles/xe-engine.dir/xe-engine.pdb
-  TARGET_PDB = src/XeEngine/libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.o: CXX_COMPILER__xe-engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/XeEngine/mesh_loader.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1127,8 +1051,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.o: CXX_COMPILER__xe-
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
   OBJECT_FILE_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
-  TARGET_COMPILE_PDB = src/XeEngine/CMakeFiles/xe-engine.dir/xe-engine.pdb
-  TARGET_PDB = src/XeEngine/libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.o: CXX_COMPILER__xe-engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/XeEngine/Node.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1137,8 +1059,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.o: CXX_COMPILER__xe-engine_
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
   OBJECT_FILE_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
-  TARGET_COMPILE_PDB = src/XeEngine/CMakeFiles/xe-engine.dir/xe-engine.pdb
-  TARGET_PDB = src/XeEngine/libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.o: CXX_COMPILER__xe-engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/XeEngine/PhongMaterial.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1147,8 +1067,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.o: CXX_COMPILER__x
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
   OBJECT_FILE_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
-  TARGET_COMPILE_PDB = src/XeEngine/CMakeFiles/xe-engine.dir/xe-engine.pdb
-  TARGET_PDB = src/XeEngine/libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.o: CXX_COMPILER__xe-engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/XeEngine/stb_image.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1157,8 +1075,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.o: CXX_COMPILER__xe-en
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
   OBJECT_FILE_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
-  TARGET_COMPILE_PDB = src/XeEngine/CMakeFiles/xe-engine.dir/xe-engine.pdb
-  TARGET_PDB = src/XeEngine/libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.o: CXX_COMPILER__xe-engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/XeEngine/utils.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1167,8 +1083,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.o: CXX_COMPILER__xe-engine
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
   OBJECT_FILE_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
-  TARGET_COMPILE_PDB = src/XeEngine/CMakeFiles/xe-engine.dir/xe-engine.pdb
-  TARGET_PDB = src/XeEngine/libxe-engine.pdb
 
 
 # =============================================================================
@@ -1184,9 +1098,8 @@ build src/XeEngine/libxe-engine.a: CXX_STATIC_LIBRARY_LINKER__xe-engine_Release 
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/XeEngine/CMakeFiles/xe-engine.dir/xe-engine.pdb
   TARGET_FILE = src/XeEngine/libxe-engine.a
-  TARGET_PDB = src/XeEngine/libxe-engine.pdb
+  TARGET_PDB = xe-engine.a.dbg
 
 
 #############################################
@@ -1274,8 +1187,6 @@ build src/Engine/CMakeFiles/engine.dir/Mesh.cpp.o: CXX_COMPILER__engine_unscanne
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/Engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/Engine/CMakeFiles/engine.dir
-  TARGET_COMPILE_PDB = src/Engine/CMakeFiles/engine.dir/engine.pdb
-  TARGET_PDB = src/Engine/libengine.pdb
 
 build src/Engine/CMakeFiles/engine.dir/Material.cpp.o: CXX_COMPILER__engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Engine/Material.cpp || cmake_object_order_depends_target_engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -1284,8 +1195,6 @@ build src/Engine/CMakeFiles/engine.dir/Material.cpp.o: CXX_COMPILER__engine_unsc
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/Engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/Engine/CMakeFiles/engine.dir
-  TARGET_COMPILE_PDB = src/Engine/CMakeFiles/engine.dir/engine.pdb
-  TARGET_PDB = src/Engine/libengine.pdb
 
 
 # =============================================================================
@@ -1301,9 +1210,8 @@ build src/Engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Release CMakeFil
   OBJECT_DIR = src/Engine/CMakeFiles/engine.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/Engine/CMakeFiles/engine.dir/engine.pdb
   TARGET_FILE = src/Engine/libengine.a
-  TARGET_PDB = src/Engine/libengine.pdb
+  TARGET_PDB = engine.a.dbg
 
 
 #############################################
@@ -1391,8 +1299,6 @@ build src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.o: CXX_COMPILER_
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/Assignments/Triangle/CMakeFiles/Triangle.dir
   OBJECT_FILE_DIR = src/Assignments/Triangle/CMakeFiles/Triangle.dir
-  TARGET_COMPILE_PDB = src/Assignments/Triangle/CMakeFiles/Triangle.dir/
-  TARGET_PDB = src/Assignments/Triangle/Triangle.pdb
 
 build src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.o: CXX_COMPILER__Triangle_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/app.cpp || cmake_object_order_depends_target_Triangle
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/Triangle\" -DPROJECT_NAME=\"Triangle\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -1401,8 +1307,6 @@ build src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.o: CXX_COMPILER__
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/Assignments/Triangle/CMakeFiles/Triangle.dir
   OBJECT_FILE_DIR = src/Assignments/Triangle/CMakeFiles/Triangle.dir
-  TARGET_COMPILE_PDB = src/Assignments/Triangle/CMakeFiles/Triangle.dir/
-  TARGET_PDB = src/Assignments/Triangle/Triangle.pdb
 
 
 # =============================================================================
@@ -1418,9 +1322,8 @@ build src/Assignments/Triangle/Triangle: CXX_EXECUTABLE_LINKER__Triangle_Release
   OBJECT_DIR = src/Assignments/Triangle/CMakeFiles/Triangle.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/Assignments/Triangle/CMakeFiles/Triangle.dir/
   TARGET_FILE = src/Assignments/Triangle/Triangle
-  TARGET_PDB = src/Assignments/Triangle/Triangle.pdb
+  TARGET_PDB = Triangle.dbg
 
 
 #############################################
@@ -1508,8 +1411,6 @@ build src/Assignments/House/CMakeFiles/House.dir/main.cpp.o: CXX_COMPILER__House
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/Assignments/House/CMakeFiles/House.dir
   OBJECT_FILE_DIR = src/Assignments/House/CMakeFiles/House.dir
-  TARGET_COMPILE_PDB = src/Assignments/House/CMakeFiles/House.dir/
-  TARGET_PDB = src/Assignments/House/House.pdb
 
 build src/Assignments/House/CMakeFiles/House.dir/app.cpp.o: CXX_COMPILER__House_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/House/app.cpp || cmake_object_order_depends_target_House
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/House\" -DPROJECT_NAME=\"House\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -1518,8 +1419,6 @@ build src/Assignments/House/CMakeFiles/House.dir/app.cpp.o: CXX_COMPILER__House_
   INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = src/Assignments/House/CMakeFiles/House.dir
   OBJECT_FILE_DIR = src/Assignments/House/CMakeFiles/House.dir
-  TARGET_COMPILE_PDB = src/Assignments/House/CMakeFiles/House.dir/
-  TARGET_PDB = src/Assignments/House/House.pdb
 
 
 # =============================================================================
@@ -1535,9 +1434,8 @@ build src/Assignments/House/House: CXX_EXECUTABLE_LINKER__House_Release CMakeFil
   OBJECT_DIR = src/Assignments/House/CMakeFiles/House.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = src/Assignments/House/CMakeFiles/House.dir/
   TARGET_FILE = src/Assignments/House/House
-  TARGET_PDB = src/Assignments/House/House.pdb
+  TARGET_PDB = House.dbg
 
 
 #############################################
@@ -1605,9 +1503,123 @@ build src/Assignments/House/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/As
 build src/Assignments/House/install/strip: phony src/Assignments/House/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/jakub/Documents/Git/3d23/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Indices
+
+
+#############################################
+# Order-only phony target for Indices
+
+build cmake_object_order_depends_target_Indices: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+
+build src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.o: CXX_COMPILER__Indices_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/Indices/main.cpp || cmake_object_order_depends_target_Indices
+  DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/Indices\" -DPROJECT_NAME=\"Indices\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
+  DEP_FILE = src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
+  OBJECT_DIR = src/Assignments/Indices/CMakeFiles/Indices.dir
+  OBJECT_FILE_DIR = src/Assignments/Indices/CMakeFiles/Indices.dir
+
+build src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.o: CXX_COMPILER__Indices_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/Indices/app.cpp || cmake_object_order_depends_target_Indices
+  DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/Indices\" -DPROJECT_NAME=\"Indices\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
+  DEP_FILE = src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
+  OBJECT_DIR = src/Assignments/Indices/CMakeFiles/Indices.dir
+  OBJECT_FILE_DIR = src/Assignments/Indices/CMakeFiles/Indices.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Indices
+
+
+#############################################
+# Link the executable src/Assignments/Indices/Indices
+
+build src/Assignments/Indices/Indices: CXX_EXECUTABLE_LINKER__Indices_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.o src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a glad src/Application/libapplication.a
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation
+  OBJECT_DIR = src/Assignments/Indices/CMakeFiles/Indices.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/Assignments/Indices/Indices
+  TARGET_PDB = Indices.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/Assignments/Indices/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/Assignments/Indices/edit_cache: phony src/Assignments/Indices/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/Assignments/Indices/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/jakub/Documents/Git/3d23 -B/Users/jakub/Documents/Git/3d23/cmake-build-release
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/Assignments/Indices/rebuild_cache: phony src/Assignments/Indices/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src/Assignments/Indices/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src/Assignments/Indices/CMakeFiles/install.util: CUSTOM_COMMAND src/Assignments/Indices/all
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src/Assignments/Indices/install: phony src/Assignments/Indices/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src/Assignments/Indices/CMakeFiles/install/local.util: CUSTOM_COMMAND src/Assignments/Indices/all
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src/Assignments/Indices/install/local: phony src/Assignments/Indices/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build src/Assignments/Indices/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/Assignments/Indices/all
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build src/Assignments/Indices/install/strip: phony src/Assignments/Indices/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
 build House: phony src/Assignments/House/House
+
+build Indices: phony src/Assignments/Indices/Indices
 
 build Triangle: phony src/Assignments/Triangle/Triangle
 
@@ -1647,7 +1659,7 @@ build xe-engine: phony src/XeEngine/libxe-engine.a
 #############################################
 # Folder: /Users/jakub/Documents/Git/3d23/cmake-build-release
 
-build all: phony glad _deps/glfw-build/all _deps/glm-build/all _deps/spdlog-build/all src/Application/all src/ObjectReader/all src/XeEngine/all src/Engine/all src/Assignments/Triangle/all src/Assignments/House/all
+build all: phony glad _deps/glfw-build/all _deps/glm-build/all _deps/spdlog-build/all src/Application/all src/ObjectReader/all src/XeEngine/all src/Engine/all src/Assignments/Triangle/all src/Assignments/House/all src/Assignments/Indices/all
 
 # =============================================================================
 
@@ -1701,6 +1713,13 @@ build src/Assignments/House/all: phony src/Assignments/House/House
 # =============================================================================
 
 #############################################
+# Folder: /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices
+
+build src/Assignments/Indices/all: phony src/Assignments/Indices/Indices
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Triangle
 
 build src/Assignments/Triangle/all: phony src/Assignments/Triangle/Triangle
@@ -1733,14 +1752,14 @@ build src/XeEngine/all: phony src/XeEngine/libxe-engine.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake /Users/jakub/Documents/Git/3d23/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Application/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/House/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Engine/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/ObjectReader/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake /Users/jakub/Documents/Git/3d23/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Application/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/House/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Indices/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Engine/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/ObjectReader/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake /Users/jakub/Documents/Git/3d23/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Application/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/House/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Engine/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/ObjectReader/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake /Users/jakub/Documents/Git/3d23/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Application/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/House/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Indices/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Engine/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/ObjectReader/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake: phony
 
 
 #############################################

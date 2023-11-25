@@ -81,3 +81,10 @@
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/House/CMakeFiles/install.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/House/CMakeFiles/install/local.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/House/CMakeFiles/install/strip.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices/CMakeFiles/Indices.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices/CMakeFiles/edit_cache.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices/CMakeFiles/rebuild_cache.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices/CMakeFiles/list_install_components.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices/CMakeFiles/install.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices/CMakeFiles/install/local.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices/CMakeFiles/install/strip.dir
