@@ -88,3 +88,10 @@
 /Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Indices/CMakeFiles/install.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Indices/CMakeFiles/install/local.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Indices/CMakeFiles/install/strip.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Uniforms/CMakeFiles/Uniforms.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Uniforms/CMakeFiles/edit_cache.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Uniforms/CMakeFiles/rebuild_cache.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Uniforms/CMakeFiles/list_install_components.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Uniforms/CMakeFiles/install.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Uniforms/CMakeFiles/install/local.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Uniforms/CMakeFiles/install/strip.dir
