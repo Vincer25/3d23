@@ -103,3 +103,10 @@
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM/CMakeFiles/install.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM/CMakeFiles/install/local.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM/CMakeFiles/install/strip.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/Pyramid.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/edit_cache.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/rebuild_cache.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/list_install_components.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/install.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/install/local.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/install/strip.dir

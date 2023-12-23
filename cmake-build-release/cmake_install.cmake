@@ -97,6 +97,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

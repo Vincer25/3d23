@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"cmake-build-release/_deps/glfw-src/src/CMakeLists.txt"
+			"cmake-build-debug/_deps/glfw-src/src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -33,13 +33,13 @@
 				"_deps/glfw-build/src/libglfw3.a"
 			],
 			"targetId" : "glfw::@fa9f4482d3a2b070f206",
-			"targetIndex" : 8,
+			"targetIndex" : 9,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
 		"build" : "_deps/glfw-build/src",
-		"source" : "cmake-build-release/_deps/glfw-src/src"
+		"source" : "cmake-build-debug/_deps/glfw-src/src"
 	}
 }
