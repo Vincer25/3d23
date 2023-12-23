@@ -1,0 +1,554 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_deps/glfw-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glfw-build-Debug-c4d6f1e24afc443df5ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/glfw-src",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "_deps/glfw-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-8fc70b6466b52407f5f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/glfw-src/src",
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.glm-build-Debug-3ab0f2b8ca6d44de8bbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/glm-src"
+				},
+				{
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-Debug-afa33c3e425f714e5927.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/glm-src/glm",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-Debug-7630642c96cc99218350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "cmake-build-debug/_deps/spdlog-src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "src/Application",
+					"jsonFile" : "directory-src.Application-Debug-903730f94887b8405fc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/Application",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/ObjectReader",
+					"jsonFile" : "directory-src.ObjectReader-Debug-7b810695c9fa1862e5f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src/ObjectReader",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "src/XeEngine",
+					"jsonFile" : "directory-src.XeEngine-Debug-34e11291eb96bd49b730.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/XeEngine",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "src/Engine",
+					"jsonFile" : "directory-src.Engine-Debug-f78cc2e3259e8f71741a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "src/Engine",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/Assignments/Triangle",
+					"jsonFile" : "directory-src.Assignments.Triangle-Debug-9c2d0280c7fefcbc75ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "src/Assignments/Triangle",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/Assignments/House",
+					"jsonFile" : "directory-src.Assignments.House-Debug-0fa79544065fe2e55039.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "src/Assignments/House",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/Assignments/Indices",
+					"jsonFile" : "directory-src.Assignments.Indices-Debug-a267fa94604e9b4ae21c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "src/Assignments/Indices",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/Assignments/Uniforms",
+					"jsonFile" : "directory-src.Assignments.Uniforms-Debug-3553d24235b56d40048e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "src/Assignments/Uniforms",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/Assignments/PVM",
+					"jsonFile" : "directory-src.Assignments.PVM-Debug-4261b537a8a76ed4a71a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "src/Assignments/PVM",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Graphics3DCode",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "application",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "OBJReader",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "XeEngine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "Engine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "Triangle",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "House",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "Indices",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "Uniforms",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "PVM",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "House::@a57c938c6b5fe80120df",
+					"jsonFile" : "target-House-Debug-969e422cfb94ee3bde97.json",
+					"name" : "House",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Indices::@7518ba586045ff6a9b77",
+					"jsonFile" : "target-Indices-Debug-1f32c0b059ac12b1ac65.json",
+					"name" : "Indices",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "PVM::@52808b3e216cfe39f7b8",
+					"jsonFile" : "target-PVM-Debug-4da95a3287d6713642cf.json",
+					"name" : "PVM",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Triangle::@ee163803f4c0a4b34178",
+					"jsonFile" : "target-Triangle-Debug-22cf06358ff98897ad4e.json",
+					"name" : "Triangle",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Uniforms::@72af09b1f554c581fc86",
+					"jsonFile" : "target-Uniforms-Debug-bc6ac54913b7f88ac25b.json",
+					"name" : "Uniforms",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "application::@63f4a4cc0e32de8c050b",
+					"jsonFile" : "target-application-Debug-713a082d76c06541aa19.json",
+					"name" : "application",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "engine::@57eeced369f002faad1a",
+					"jsonFile" : "target-engine-Debug-43620e1e617a8f2fc54a.json",
+					"name" : "engine",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glad-Debug-2b7936fccac956cdd24e.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@fa9f4482d3a2b070f206",
+					"jsonFile" : "target-glfw-Debug-118c401197168e2f927c.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glm::@ce54d98d7b326a3e12a8",
+					"jsonFile" : "target-glm-Debug-81ca71fe6302054a6800.json",
+					"name" : "glm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "objreader::@fe69842f7a07b275738d",
+					"jsonFile" : "target-objreader-Debug-b464e86fcc11c162999d.json",
+					"name" : "objreader",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-Debug-e593babb2db9c1b3c9ac.json",
+					"name" : "spdlog",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@369fad943889a5ec39c8",
+					"jsonFile" : "target-uninstall-Debug-a72a5975a92a93da5136.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@fa9f4482d3a2b070f206",
+					"jsonFile" : "target-update_mappings-Debug-a2f63e468a44a87eb5d7.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "xe-engine::@6de0204676fa90e31894",
+					"jsonFile" : "target-xe-engine-Debug-e5b7f00d6094a7ddbdd2.json",
+					"name" : "xe-engine",
+					"projectIndex" : 6
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug",
+		"source" : "/Users/jakub/Documents/Git/3d23"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

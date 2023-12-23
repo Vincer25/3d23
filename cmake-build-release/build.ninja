@@ -565,6 +565,40 @@ build _deps/glm-build/install/strip: phony _deps/glm-build/CMakeFiles/install/st
 # /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target glm
+
+
+#############################################
+# Order-only phony target for glm
+
+build cmake_object_order_depends_target_glm: phony || _deps/glm-build/glm/CMakeFiles/glm.dir
+
+build _deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o: CXX_COMPILER__glm_unscanned_Release /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src/glm/detail/glm.cpp || cmake_object_order_depends_target_glm
+  DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
+  DEP_FILE = _deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src
+  OBJECT_DIR = _deps/glm-build/glm/CMakeFiles/glm.dir
+  OBJECT_FILE_DIR = _deps/glm-build/glm/CMakeFiles/glm.dir/detail
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target glm
+
+
+#############################################
+# Link the static library _deps/glm-build/glm/libglm.a
+
+build _deps/glm-build/glm/libglm.a: CXX_STATIC_LIBRARY_LINKER__glm_Release _deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = _deps/glm-build/glm/CMakeFiles/glm.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = _deps/glm-build/glm/libglm.a
+  TARGET_PDB = glm.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -794,7 +828,7 @@ build _deps/spdlog-build/install/strip: phony _deps/spdlog-build/CMakeFiles/inst
 #############################################
 # Order-only phony target for application
 
-build cmake_object_order_depends_target_application: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+build cmake_object_order_depends_target_application: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
 
 build src/Application/CMakeFiles/application.dir/application.cpp.o: CXX_COMPILER__application_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Application/application.cpp || cmake_object_order_depends_target_application
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -828,7 +862,7 @@ build src/Application/CMakeFiles/application.dir/shader_source.cpp.o: CXX_COMPIL
 #############################################
 # Link the static library src/Application/libapplication.a
 
-build src/Application/libapplication.a: CXX_STATIC_LIBRARY_LINKER__application_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Application/CMakeFiles/application.dir/application.cpp.o src/Application/CMakeFiles/application.dir/utils.cpp.o src/Application/CMakeFiles/application.dir/shader_source.cpp.o || _deps/glfw-build/src/libglfw3.a glad
+build src/Application/libapplication.a: CXX_STATIC_LIBRARY_LINKER__application_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Application/CMakeFiles/application.dir/application.cpp.o src/Application/CMakeFiles/application.dir/utils.cpp.o src/Application/CMakeFiles/application.dir/shader_source.cpp.o || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
   OBJECT_DIR = src/Application/CMakeFiles/application.dir
@@ -914,7 +948,7 @@ build src/Application/install/strip: phony src/Application/CMakeFiles/install/st
 #############################################
 # Order-only phony target for objreader
 
-build cmake_object_order_depends_target_objreader: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_spdlog
+build cmake_object_order_depends_target_objreader: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm cmake_object_order_depends_target_spdlog
 
 build src/ObjectReader/CMakeFiles/objreader.dir/obj_reader.cpp.o: CXX_COMPILER__objreader_unscanned_Release /Users/jakub/Documents/Git/3d23/src/ObjectReader/obj_reader.cpp || cmake_object_order_depends_target_objreader
   DEFINES = -DMAJOR=4 -DMINOR=1 -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -932,7 +966,7 @@ build src/ObjectReader/CMakeFiles/objreader.dir/obj_reader.cpp.o: CXX_COMPILER__
 #############################################
 # Link the static library src/ObjectReader/libobjreader.a
 
-build src/ObjectReader/libobjreader.a: CXX_STATIC_LIBRARY_LINKER__objreader_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/ObjectReader/CMakeFiles/objreader.dir/obj_reader.cpp.o || _deps/glfw-build/src/libglfw3.a _deps/spdlog-build/libspdlog.a glad
+build src/ObjectReader/libobjreader.a: CXX_STATIC_LIBRARY_LINKER__objreader_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/ObjectReader/CMakeFiles/objreader.dir/obj_reader.cpp.o || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a _deps/spdlog-build/libspdlog.a glad
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
   OBJECT_DIR = src/ObjectReader/CMakeFiles/objreader.dir
@@ -1018,7 +1052,7 @@ build src/ObjectReader/install/strip: phony src/ObjectReader/CMakeFiles/install/
 #############################################
 # Order-only phony target for xe-engine
 
-build cmake_object_order_depends_target_xe-engine: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_objreader cmake_object_order_depends_target_spdlog
+build cmake_object_order_depends_target_xe-engine: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm cmake_object_order_depends_target_objreader cmake_object_order_depends_target_spdlog
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.o: CXX_COMPILER__xe-engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/XeEngine/ColorMaterial.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1092,7 +1126,7 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.o: CXX_COMPILER__xe-engine
 #############################################
 # Link the static library src/XeEngine/libxe-engine.a
 
-build src/XeEngine/libxe-engine.a: CXX_STATIC_LIBRARY_LINKER__xe-engine_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.o || _deps/glfw-build/src/libglfw3.a _deps/spdlog-build/libspdlog.a glad src/ObjectReader/libobjreader.a
+build src/XeEngine/libxe-engine.a: CXX_STATIC_LIBRARY_LINKER__xe-engine_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.o src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.o || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a _deps/spdlog-build/libspdlog.a glad src/ObjectReader/libobjreader.a
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
   OBJECT_DIR = src/XeEngine/CMakeFiles/xe-engine.dir
@@ -1178,7 +1212,7 @@ build src/XeEngine/install/strip: phony src/XeEngine/CMakeFiles/install/strip.ut
 #############################################
 # Order-only phony target for engine
 
-build cmake_object_order_depends_target_engine: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+build cmake_object_order_depends_target_engine: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
 
 build src/Engine/CMakeFiles/engine.dir/Mesh.cpp.o: CXX_COMPILER__engine_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Engine/Mesh.cpp || cmake_object_order_depends_target_engine
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -1204,7 +1238,7 @@ build src/Engine/CMakeFiles/engine.dir/Material.cpp.o: CXX_COMPILER__engine_unsc
 #############################################
 # Link the static library src/Engine/libengine.a
 
-build src/Engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Engine/CMakeFiles/engine.dir/Mesh.cpp.o src/Engine/CMakeFiles/engine.dir/Material.cpp.o || _deps/glfw-build/src/libglfw3.a glad
+build src/Engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Engine/CMakeFiles/engine.dir/Mesh.cpp.o src/Engine/CMakeFiles/engine.dir/Material.cpp.o || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
   OBJECT_DIR = src/Engine/CMakeFiles/engine.dir
@@ -1290,7 +1324,7 @@ build src/Engine/install/strip: phony src/Engine/CMakeFiles/install/strip.util
 #############################################
 # Order-only phony target for Triangle
 
-build cmake_object_order_depends_target_Triangle: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+build cmake_object_order_depends_target_Triangle: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
 
 build src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.o: CXX_COMPILER__Triangle_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/main.cpp || cmake_object_order_depends_target_Triangle
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/Triangle\" -DPROJECT_NAME=\"Triangle\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -1316,9 +1350,9 @@ build src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.o: CXX_COMPILER__
 #############################################
 # Link the executable src/Assignments/Triangle/Triangle
 
-build src/Assignments/Triangle/Triangle: CXX_EXECUTABLE_LINKER__Triangle_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.o src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a glad src/Application/libapplication.a
+build src/Assignments/Triangle/Triangle: CXX_EXECUTABLE_LINKER__Triangle_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.o src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad src/Application/libapplication.a
   FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation
+  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  _deps/glm-build/glm/libglm.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation  _deps/glm-build/glm/libglm.a
   OBJECT_DIR = src/Assignments/Triangle/CMakeFiles/Triangle.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1402,7 +1436,7 @@ build src/Assignments/Triangle/install/strip: phony src/Assignments/Triangle/CMa
 #############################################
 # Order-only phony target for House
 
-build cmake_object_order_depends_target_House: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+build cmake_object_order_depends_target_House: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
 
 build src/Assignments/House/CMakeFiles/House.dir/main.cpp.o: CXX_COMPILER__House_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/House/main.cpp || cmake_object_order_depends_target_House
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/House\" -DPROJECT_NAME=\"House\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -1428,9 +1462,9 @@ build src/Assignments/House/CMakeFiles/House.dir/app.cpp.o: CXX_COMPILER__House_
 #############################################
 # Link the executable src/Assignments/House/House
 
-build src/Assignments/House/House: CXX_EXECUTABLE_LINKER__House_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/House/CMakeFiles/House.dir/main.cpp.o src/Assignments/House/CMakeFiles/House.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a glad src/Application/libapplication.a
+build src/Assignments/House/House: CXX_EXECUTABLE_LINKER__House_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/House/CMakeFiles/House.dir/main.cpp.o src/Assignments/House/CMakeFiles/House.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad src/Application/libapplication.a
   FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation
+  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  _deps/glm-build/glm/libglm.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation  _deps/glm-build/glm/libglm.a
   OBJECT_DIR = src/Assignments/House/CMakeFiles/House.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1514,7 +1548,7 @@ build src/Assignments/House/install/strip: phony src/Assignments/House/CMakeFile
 #############################################
 # Order-only phony target for Indices
 
-build cmake_object_order_depends_target_Indices: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+build cmake_object_order_depends_target_Indices: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
 
 build src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.o: CXX_COMPILER__Indices_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/Indices/main.cpp || cmake_object_order_depends_target_Indices
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/Indices\" -DPROJECT_NAME=\"Indices\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -1540,9 +1574,9 @@ build src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.o: CXX_COMPILER__In
 #############################################
 # Link the executable src/Assignments/Indices/Indices
 
-build src/Assignments/Indices/Indices: CXX_EXECUTABLE_LINKER__Indices_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.o src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a glad src/Application/libapplication.a
+build src/Assignments/Indices/Indices: CXX_EXECUTABLE_LINKER__Indices_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.o src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad src/Application/libapplication.a
   FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation
+  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  _deps/glm-build/glm/libglm.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation  _deps/glm-build/glm/libglm.a
   OBJECT_DIR = src/Assignments/Indices/CMakeFiles/Indices.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1626,7 +1660,7 @@ build src/Assignments/Indices/install/strip: phony src/Assignments/Indices/CMake
 #############################################
 # Order-only phony target for Uniforms
 
-build cmake_object_order_depends_target_Uniforms: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+build cmake_object_order_depends_target_Uniforms: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
 
 build src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/main.cpp.o: CXX_COMPILER__Uniforms_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/Uniforms/main.cpp || cmake_object_order_depends_target_Uniforms
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/Uniforms\" -DPROJECT_NAME=\"Uniforms\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
@@ -1652,9 +1686,9 @@ build src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/app.cpp.o: CXX_COMPILER__
 #############################################
 # Link the executable src/Assignments/Uniforms/Uniforms
 
-build src/Assignments/Uniforms/Uniforms: CXX_EXECUTABLE_LINKER__Uniforms_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/main.cpp.o src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a glad src/Application/libapplication.a
+build src/Assignments/Uniforms/Uniforms: CXX_EXECUTABLE_LINKER__Uniforms_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/main.cpp.o src/Assignments/Uniforms/CMakeFiles/Uniforms.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad src/Application/libapplication.a
   FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation
+  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  _deps/glm-build/glm/libglm.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation  _deps/glm-build/glm/libglm.a
   OBJECT_DIR = src/Assignments/Uniforms/CMakeFiles/Uniforms.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1727,11 +1761,125 @@ build src/Assignments/Uniforms/CMakeFiles/install/strip.util: CUSTOM_COMMAND src
 build src/Assignments/Uniforms/install/strip: phony src/Assignments/Uniforms/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/jakub/Documents/Git/3d23/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PVM
+
+
+#############################################
+# Order-only phony target for PVM
+
+build cmake_object_order_depends_target_PVM: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
+
+build src/Assignments/PVM/CMakeFiles/PVM.dir/main.cpp.o: CXX_COMPILER__PVM_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/PVM/main.cpp || cmake_object_order_depends_target_PVM
+  DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/PVM\" -DPROJECT_NAME=\"PVM\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
+  DEP_FILE = src/Assignments/PVM/CMakeFiles/PVM.dir/main.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
+  OBJECT_DIR = src/Assignments/PVM/CMakeFiles/PVM.dir
+  OBJECT_FILE_DIR = src/Assignments/PVM/CMakeFiles/PVM.dir
+
+build src/Assignments/PVM/CMakeFiles/PVM.dir/app.cpp.o: CXX_COMPILER__PVM_unscanned_Release /Users/jakub/Documents/Git/3d23/src/Assignments/PVM/app.cpp || cmake_object_order_depends_target_PVM
+  DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/PVM\" -DPROJECT_NAME=\"PVM\" -DROOT_DIR=\"/Users/jakub/Documents/Git/3d23\" -DXE_DEBUG
+  DEP_FILE = src/Assignments/PVM/CMakeFiles/PVM.dir/app.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/jakub/Documents/Git/3d23/src/3rdParty -I/Users/jakub/Documents/Git/3d23/src -I/Users/jakub/Documents/Git/3d23/src/3rdParty/glad/glad_4_1/glad/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src/include -I/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
+  OBJECT_DIR = src/Assignments/PVM/CMakeFiles/PVM.dir
+  OBJECT_FILE_DIR = src/Assignments/PVM/CMakeFiles/PVM.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PVM
+
+
+#############################################
+# Link the executable src/Assignments/PVM/PVM
+
+build src/Assignments/PVM/PVM: CXX_EXECUTABLE_LINKER__PVM_Release CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/PVM/CMakeFiles/PVM.dir/main.cpp.o src/Assignments/PVM/CMakeFiles/PVM.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad src/Application/libapplication.a
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  _deps/glm-build/glm/libglm.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation  _deps/glm-build/glm/libglm.a
+  OBJECT_DIR = src/Assignments/PVM/CMakeFiles/PVM.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/Assignments/PVM/PVM
+  TARGET_PDB = PVM.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/Assignments/PVM/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/Assignments/PVM/edit_cache: phony src/Assignments/PVM/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/Assignments/PVM/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/jakub/Documents/Git/3d23 -B/Users/jakub/Documents/Git/3d23/cmake-build-release
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/Assignments/PVM/rebuild_cache: phony src/Assignments/PVM/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src/Assignments/PVM/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src/Assignments/PVM/CMakeFiles/install.util: CUSTOM_COMMAND src/Assignments/PVM/all
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src/Assignments/PVM/install: phony src/Assignments/PVM/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src/Assignments/PVM/CMakeFiles/install/local.util: CUSTOM_COMMAND src/Assignments/PVM/all
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src/Assignments/PVM/install/local: phony src/Assignments/PVM/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build src/Assignments/PVM/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/Assignments/PVM/all
+  COMMAND = cd /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build src/Assignments/PVM/install/strip: phony src/Assignments/PVM/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
 build House: phony src/Assignments/House/House
 
 build Indices: phony src/Assignments/Indices/Indices
+
+build PVM: phony src/Assignments/PVM/PVM
 
 build Triangle: phony src/Assignments/Triangle/Triangle
 
@@ -1743,11 +1891,15 @@ build engine: phony src/Engine/libengine.a
 
 build glfw: phony _deps/glfw-build/src/libglfw3.a
 
+build glm: phony _deps/glm-build/glm/libglm.a
+
 build libapplication.a: phony src/Application/libapplication.a
 
 build libengine.a: phony src/Engine/libengine.a
 
 build libglfw3.a: phony _deps/glfw-build/src/libglfw3.a
+
+build libglm.a: phony _deps/glm-build/glm/libglm.a
 
 build libobjreader.a: phony src/ObjectReader/libobjreader.a
 
@@ -1773,7 +1925,7 @@ build xe-engine: phony src/XeEngine/libxe-engine.a
 #############################################
 # Folder: /Users/jakub/Documents/Git/3d23/cmake-build-release
 
-build all: phony glad _deps/glfw-build/all _deps/glm-build/all _deps/spdlog-build/all src/Application/all src/ObjectReader/all src/XeEngine/all src/Engine/all src/Assignments/Triangle/all src/Assignments/House/all src/Assignments/Indices/all src/Assignments/Uniforms/all
+build all: phony glad _deps/glfw-build/all _deps/glm-build/all _deps/spdlog-build/all src/Application/all src/ObjectReader/all src/XeEngine/all src/Engine/all src/Assignments/Triangle/all src/Assignments/House/all src/Assignments/Indices/all src/Assignments/Uniforms/all src/Assignments/PVM/all
 
 # =============================================================================
 
@@ -1801,7 +1953,7 @@ build _deps/glm-build/all: phony _deps/glm-build/glm/all
 #############################################
 # Folder: /Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-build/glm
 
-build _deps/glm-build/glm/all: phony
+build _deps/glm-build/glm/all: phony _deps/glm-build/glm/libglm.a
 
 # =============================================================================
 
@@ -1830,6 +1982,13 @@ build src/Assignments/House/all: phony src/Assignments/House/House
 # Folder: /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices
 
 build src/Assignments/Indices/all: phony src/Assignments/Indices/Indices
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM
+
+build src/Assignments/PVM/all: phony src/Assignments/PVM/PVM
 
 # =============================================================================
 
@@ -1873,14 +2032,14 @@ build src/XeEngine/all: phony src/XeEngine/libxe-engine.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake /Users/jakub/Documents/Git/3d23/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Application/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/House/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Indices/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Uniforms/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Engine/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/ObjectReader/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake /Users/jakub/Documents/Git/3d23/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Application/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/House/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Indices/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/PVM/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Uniforms/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Engine/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/ObjectReader/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake /Users/jakub/Documents/Git/3d23/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Application/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/House/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Indices/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Uniforms/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Engine/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/ObjectReader/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ExternalProject.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake /Users/jakub/Documents/Git/3d23/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Application/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/House/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Indices/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/PVM/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Triangle/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Assignments/Uniforms/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/Engine/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/ObjectReader/CMakeLists.txt /Users/jakub/Documents/Git/3d23/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake: phony
 
 
 #############################################

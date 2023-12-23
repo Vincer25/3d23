@@ -352,6 +352,15 @@ GLFW_LIBRARY_TYPE:STRING=
 //Value Computed by CMake
 GLFW_SOURCE_DIR:STATIC=/Users/jakub/Documents/Git/3d23/cmake-build-debug/_deps/glfw-src
 
+//Generate the install target
+GLM_BUILD_INSTALL:BOOL=OFF
+
+//Build dynamic/static library
+GLM_BUILD_LIBRARY:BOOL=ON
+
+//Build the test programs
+GLM_BUILD_TESTS:BOOL=OFF
+
 //Value Computed by CMake
 Graphics3DCode_BINARY_DIR:STATIC=/Users/jakub/Documents/Git/3d23/cmake-build-debug
 
@@ -396,6 +405,15 @@ OPENGL_gl_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.s
 
 //GLU library for OS X (usually same as OpenGL library)
 OPENGL_glu_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework
+
+//Value Computed by CMake
+PVM_BINARY_DIR:STATIC=/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/PVM
+
+//Value Computed by CMake
+PVM_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+PVM_SOURCE_DIR:STATIC=/Users/jakub/Documents/Git/3d23/src/Assignments/PVM
 
 //Build all artifacts
 SPDLOG_BUILD_ALL:BOOL=OFF
@@ -660,7 +678,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -4,7 +4,6 @@
 -- Build spdlog: 1.12.0
 -- Build type: Release
 Warning: directory /Users/jakub/Documents/Git/3d23/src/Assignments/Colors does not exists.
-Warning: directory /Users/jakub/Documents/Git/3d23/src/Assignments/PVM does not exists.
 Warning: directory /Users/jakub/Documents/Git/3d23/src/Assignments/Pyramid does not exists.
 Warning: directory /Users/jakub/Documents/Git/3d23/src/Assignments/Resizing does not exists.
 Warning: directory /Users/jakub/Documents/Git/3d23/src/Assignments/Zoom does not exists.
@@ -18,6 +17,6 @@ Warning: directory /Users/jakub/Documents/Git/3d23/src/Assignments/Phong does no
 Warning: directory /Users/jakub/Documents/Git/3d23/src/Assignments/PBR does not exists.
 Warning: directory /Users/jakub/Documents/Git/3d23/src/Assignments/MultipleLights does not exists.
 Warning: directory /Users/jakub/Documents/Git/3d23/src/Assignments/NormalMaps does not exists.
--- Configuring done (2.8s)
+-- Configuring done (4.3s)
 -- Generating done (0.1s)
 -- Build files have been written to: /Users/jakub/Documents/Git/3d23/cmake-build-release
