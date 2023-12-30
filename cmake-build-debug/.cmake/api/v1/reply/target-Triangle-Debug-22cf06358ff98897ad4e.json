@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Assignments/Pyramid/Pyramid"
+			"path" : "src/Assignments/Triangle/Triangle"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"src/Assignments/Pyramid/CMakeLists.txt",
+			"src/Assignments/Triangle/CMakeLists.txt",
 			"cmake-build-debug/_deps/glfw-src/src/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
@@ -115,11 +115,11 @@
 				},
 				{
 					"backtrace" : 7,
-					"define" : "PROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/Pyramid\""
+					"define" : "PROJECT_DIR=\"/Users/jakub/Documents/Git/3d23/src/Assignments/Triangle\""
 				},
 				{
 					"backtrace" : 7,
-					"define" : "PROJECT_NAME=\"Pyramid\""
+					"define" : "PROJECT_NAME=\"Triangle\""
 				},
 				{
 					"backtrace" : 8,
@@ -178,11 +178,11 @@
 	[
 		{
 			"backtrace" : 1,
-			"id" : "glfw::@fa9f4482d3a2b070f206"
+			"id" : "glad::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 1,
-			"id" : "glad::@6890427a1f51a3e7e1df"
+			"id" : "glfw::@fa9f4482d3a2b070f206"
 		},
 		{
 			"backtrace" : 1,
@@ -193,7 +193,7 @@
 			"id" : "application::@63f4a4cc0e32de8c050b"
 		}
 	],
-	"id" : "Pyramid::@ea055d38d21e054cdebf",
+	"id" : "Triangle::@ee163803f4c0a4b34178",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -259,12 +259,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Pyramid",
-	"nameOnDisk" : "Pyramid",
+	"name" : "Triangle",
+	"nameOnDisk" : "Triangle",
 	"paths" : 
 	{
-		"build" : "src/Assignments/Pyramid",
-		"source" : "src/Assignments/Pyramid"
+		"build" : "src/Assignments/Triangle",
+		"source" : "src/Assignments/Triangle"
 	},
 	"sourceGroups" : 
 	[
@@ -296,18 +296,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Assignments/Pyramid/main.cpp",
+			"path" : "src/Assignments/Triangle/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/Assignments/Pyramid/app.h",
+			"path" : "src/Assignments/Triangle/app.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Assignments/Pyramid/app.cpp",
+			"path" : "src/Assignments/Triangle/app.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

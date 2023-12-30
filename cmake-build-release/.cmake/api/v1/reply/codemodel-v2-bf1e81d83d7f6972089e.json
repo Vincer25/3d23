@@ -20,7 +20,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -32,7 +33,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -42,7 +43,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Release-8062b09910ceabf552e6.json",
+					"jsonFile" : "directory-_deps.glfw-build-Release-c9af877d8946643c6f51.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -52,13 +53,13 @@
 					"source" : "cmake-build-release/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Release-2a94975f7fe7efc02f9b.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Release-75e65dc0d00912d2125b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -68,8 +69,8 @@
 					"source" : "cmake-build-release/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						9,
-						14
+						10,
+						15
 					]
 				},
 				{
@@ -99,7 +100,7 @@
 					"source" : "cmake-build-release/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -114,7 +115,7 @@
 					"source" : "cmake-build-release/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -129,7 +130,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -144,7 +145,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -159,7 +160,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -174,7 +175,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -266,6 +267,21 @@
 					[
 						3
 					]
+				},
+				{
+					"build" : "src/Assignments/Zoom",
+					"jsonFile" : "directory-src.Assignments.Zoom-Release-3bc1cbe47ab3e2b1aade.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "src/Assignments/Zoom",
+					"targetIndexes" : 
+					[
+						6
+					]
 				}
 			],
 			"name" : "Release",
@@ -286,7 +302,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					],
 					"directoryIndexes" : 
 					[
@@ -295,7 +312,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -308,9 +325,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						9,
-						13,
-						14
+						10,
+						14,
+						15
 					]
 				},
 				{
@@ -323,7 +340,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -335,7 +352,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -347,7 +364,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -359,7 +376,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -371,7 +388,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -383,7 +400,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -457,6 +474,18 @@
 					[
 						3
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "Zoom",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
 				}
 			],
 			"targets" : 
@@ -502,6 +531,13 @@
 					"jsonFile" : "target-Uniforms-Release-29cb2b95a3fa8d42b785.json",
 					"name" : "Uniforms",
 					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Zoom::@d3a55d88706d926832ee",
+					"jsonFile" : "target-Zoom-Release-1cdbad15c0df9bee2b04.json",
+					"name" : "Zoom",
+					"projectIndex" : 14
 				},
 				{
 					"directoryIndex" : 6,

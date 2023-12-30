@@ -534,6 +534,15 @@ XeEngine_IS_TOP_LEVEL:STATIC=OFF
 XeEngine_SOURCE_DIR:STATIC=/Users/jakub/Documents/Git/3d23/src/XeEngine
 
 //Value Computed by CMake
+Zoom_BINARY_DIR:STATIC=/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Zoom
+
+//Value Computed by CMake
+Zoom_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Zoom_SOURCE_DIR:STATIC=/Users/jakub/Documents/Git/3d23/src/Assignments/Zoom
+
+//Value Computed by CMake
 application_BINARY_DIR:STATIC=/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Application
 
 //Value Computed by CMake
@@ -687,7 +696,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
