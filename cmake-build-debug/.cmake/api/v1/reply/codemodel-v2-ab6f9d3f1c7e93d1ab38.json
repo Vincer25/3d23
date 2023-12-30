@@ -22,10 +22,11 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -34,7 +35,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -44,34 +45,34 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Release-565370f0e23f0dcc25a1.json",
+					"jsonFile" : "directory-_deps.glfw-build-Debug-954148ad9f7fb22cea98.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "cmake-build-release/_deps/glfw-src",
+					"source" : "cmake-build-debug/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Release-f0252a19d2f067caaec3.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-b939d5cb5d701338fcd9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "cmake-build-release/_deps/glfw-src/src",
+					"source" : "cmake-build-debug/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						11,
-						16
+						12,
+						17
 					]
 				},
 				{
@@ -80,48 +81,48 @@
 					[
 						4
 					],
-					"jsonFile" : "directory-_deps.glm-build-Release-bef8c484ce7e113239b7.json",
+					"jsonFile" : "directory-_deps.glm-build-Debug-3ab0f2b8ca6d44de8bbe.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.6"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 2,
-					"source" : "cmake-build-release/_deps/glm-src"
+					"source" : "cmake-build-debug/_deps/glm-src"
 				},
 				{
 					"build" : "_deps/glm-build/glm",
-					"jsonFile" : "directory-_deps.glm-build.glm-Release-fac2a094d2a05c0eb965.json",
+					"jsonFile" : "directory-_deps.glm-build.glm-Debug-afa33c3e425f714e5927.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.6"
 					},
 					"parentIndex" : 3,
 					"projectIndex" : 2,
-					"source" : "cmake-build-release/_deps/glm-src/glm",
+					"source" : "cmake-build-debug/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
 					"build" : "_deps/spdlog-build",
-					"jsonFile" : "directory-_deps.spdlog-build-Release-9d970bd2028f8fd26cb0.json",
+					"jsonFile" : "directory-_deps.spdlog-build-Debug-7630642c96cc99218350.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.11"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 3,
-					"source" : "cmake-build-release/_deps/spdlog-src",
+					"source" : "cmake-build-debug/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
 					"build" : "src/Application",
-					"jsonFile" : "directory-src.Application-Release-903730f94887b8405fc4.json",
+					"jsonFile" : "directory-src.Application-Debug-903730f94887b8405fc4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -131,12 +132,12 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
 					"build" : "src/ObjectReader",
-					"jsonFile" : "directory-src.ObjectReader-Release-7b810695c9fa1862e5f1.json",
+					"jsonFile" : "directory-src.ObjectReader-Debug-7b810695c9fa1862e5f1.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -146,12 +147,12 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
 					"build" : "src/XeEngine",
-					"jsonFile" : "directory-src.XeEngine-Release-34e11291eb96bd49b730.json",
+					"jsonFile" : "directory-src.XeEngine-Debug-34e11291eb96bd49b730.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -161,12 +162,12 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						17
+						18
 					]
 				},
 				{
 					"build" : "src/Engine",
-					"jsonFile" : "directory-src.Engine-Release-f78cc2e3259e8f71741a.json",
+					"jsonFile" : "directory-src.Engine-Debug-f78cc2e3259e8f71741a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -176,12 +177,12 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
 					"build" : "src/Assignments/Triangle",
-					"jsonFile" : "directory-src.Assignments.Triangle-Release-9c2d0280c7fefcbc75ca.json",
+					"jsonFile" : "directory-src.Assignments.Triangle-Debug-9c2d0280c7fefcbc75ca.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -191,12 +192,12 @@
 					"source" : "src/Assignments/Triangle",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
 					"build" : "src/Assignments/House",
-					"jsonFile" : "directory-src.Assignments.House-Release-0fa79544065fe2e55039.json",
+					"jsonFile" : "directory-src.Assignments.House-Debug-0fa79544065fe2e55039.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -206,12 +207,12 @@
 					"source" : "src/Assignments/House",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
 					"build" : "src/Assignments/Indices",
-					"jsonFile" : "directory-src.Assignments.Indices-Release-a267fa94604e9b4ae21c.json",
+					"jsonFile" : "directory-src.Assignments.Indices-Debug-a267fa94604e9b4ae21c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -221,12 +222,12 @@
 					"source" : "src/Assignments/Indices",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
 					"build" : "src/Assignments/Uniforms",
-					"jsonFile" : "directory-src.Assignments.Uniforms-Release-3553d24235b56d40048e.json",
+					"jsonFile" : "directory-src.Assignments.Uniforms-Debug-3553d24235b56d40048e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -236,12 +237,12 @@
 					"source" : "src/Assignments/Uniforms",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
 					"build" : "src/Assignments/PVM",
-					"jsonFile" : "directory-src.Assignments.PVM-Release-4261b537a8a76ed4a71a.json",
+					"jsonFile" : "directory-src.Assignments.PVM-Debug-4261b537a8a76ed4a71a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -251,12 +252,12 @@
 					"source" : "src/Assignments/PVM",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
 					"build" : "src/Assignments/Pyramid",
-					"jsonFile" : "directory-src.Assignments.Pyramid-Release-79f00e53cd187cb70801.json",
+					"jsonFile" : "directory-src.Assignments.Pyramid-Debug-79f00e53cd187cb70801.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -266,12 +267,12 @@
 					"source" : "src/Assignments/Pyramid",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
 					"build" : "src/Assignments/Resizing",
-					"jsonFile" : "directory-src.Assignments.Resizing-Release-fd5584c2867d70ab3d85.json",
+					"jsonFile" : "directory-src.Assignments.Resizing-Debug-fd5584c2867d70ab3d85.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -281,12 +282,12 @@
 					"source" : "src/Assignments/Resizing",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
 					"build" : "src/Assignments/Zoom",
-					"jsonFile" : "directory-src.Assignments.Zoom-Release-3bc1cbe47ab3e2b1aade.json",
+					"jsonFile" : "directory-src.Assignments.Zoom-Debug-3bc1cbe47ab3e2b1aade.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -296,11 +297,26 @@
 					"source" : "src/Assignments/Zoom",
 					"targetIndexes" : 
 					[
-						7
+						8
+					]
+				},
+				{
+					"build" : "src/Assignments/CameraMovement",
+					"jsonFile" : "directory-src.Assignments.CameraMovement-Debug-cae1d022c0a9ed7b8d07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "src/Assignments/CameraMovement",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -320,7 +336,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					],
 					"directoryIndexes" : 
 					[
@@ -329,7 +346,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -342,9 +359,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11,
-						15,
-						16
+						12,
+						16,
+						17
 					]
 				},
 				{
@@ -357,7 +374,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -369,7 +386,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -381,7 +398,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -393,7 +410,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -405,7 +422,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						17
+						18
 					]
 				},
 				{
@@ -417,7 +434,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -429,7 +446,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -441,7 +458,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -453,7 +470,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -465,7 +482,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -477,7 +494,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -489,7 +506,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -501,7 +518,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -513,135 +530,154 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "CameraMovement",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 18,
+					"id" : "CameraMovement::@1dd1a3e3b31e895b5f56",
+					"jsonFile" : "target-CameraMovement-Debug-3e15e2d850ed376fd722.json",
+					"name" : "CameraMovement",
+					"projectIndex" : 16
+				},
+				{
 					"directoryIndex" : 11,
 					"id" : "House::@a57c938c6b5fe80120df",
-					"jsonFile" : "target-House-Release-39e14c6bf91a86ca4fe0.json",
+					"jsonFile" : "target-House-Debug-969e422cfb94ee3bde97.json",
 					"name" : "House",
 					"projectIndex" : 9
 				},
 				{
 					"directoryIndex" : 12,
 					"id" : "Indices::@7518ba586045ff6a9b77",
-					"jsonFile" : "target-Indices-Release-e315ea10168843de3feb.json",
+					"jsonFile" : "target-Indices-Debug-1f32c0b059ac12b1ac65.json",
 					"name" : "Indices",
 					"projectIndex" : 10
 				},
 				{
 					"directoryIndex" : 14,
 					"id" : "PVM::@52808b3e216cfe39f7b8",
-					"jsonFile" : "target-PVM-Release-dd3cb6b047328c10359c.json",
+					"jsonFile" : "target-PVM-Debug-4da95a3287d6713642cf.json",
 					"name" : "PVM",
 					"projectIndex" : 12
 				},
 				{
 					"directoryIndex" : 15,
 					"id" : "Pyramid::@ea055d38d21e054cdebf",
-					"jsonFile" : "target-Pyramid-Release-a362e77d9cc6c536e456.json",
+					"jsonFile" : "target-Pyramid-Debug-c4d1787794eb5d489093.json",
 					"name" : "Pyramid",
 					"projectIndex" : 13
 				},
 				{
 					"directoryIndex" : 16,
 					"id" : "Resizing::@80b58e68574a65d33c27",
-					"jsonFile" : "target-Resizing-Release-595b6f064d415b631861.json",
+					"jsonFile" : "target-Resizing-Debug-febf330297d7f1f3a6a8.json",
 					"name" : "Resizing",
 					"projectIndex" : 14
 				},
 				{
 					"directoryIndex" : 10,
 					"id" : "Triangle::@ee163803f4c0a4b34178",
-					"jsonFile" : "target-Triangle-Release-4c7387b33ff2fc55b7c0.json",
+					"jsonFile" : "target-Triangle-Debug-22cf06358ff98897ad4e.json",
 					"name" : "Triangle",
 					"projectIndex" : 8
 				},
 				{
 					"directoryIndex" : 13,
 					"id" : "Uniforms::@72af09b1f554c581fc86",
-					"jsonFile" : "target-Uniforms-Release-29cb2b95a3fa8d42b785.json",
+					"jsonFile" : "target-Uniforms-Debug-bc6ac54913b7f88ac25b.json",
 					"name" : "Uniforms",
 					"projectIndex" : 11
 				},
 				{
 					"directoryIndex" : 17,
 					"id" : "Zoom::@d3a55d88706d926832ee",
-					"jsonFile" : "target-Zoom-Release-1cdbad15c0df9bee2b04.json",
+					"jsonFile" : "target-Zoom-Debug-a29a644c96cb1f52850e.json",
 					"name" : "Zoom",
 					"projectIndex" : 15
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "application::@63f4a4cc0e32de8c050b",
-					"jsonFile" : "target-application-Release-5cfab3ea37269a12e867.json",
+					"jsonFile" : "target-application-Debug-713a082d76c06541aa19.json",
 					"name" : "application",
 					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 9,
 					"id" : "engine::@57eeced369f002faad1a",
-					"jsonFile" : "target-engine-Release-3d6bc94f14b8a6ff3195.json",
+					"jsonFile" : "target-engine-Debug-43620e1e617a8f2fc54a.json",
 					"name" : "engine",
 					"projectIndex" : 7
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "glad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glad-Release-f1d78ec53e4eb27cbd54.json",
+					"jsonFile" : "target-glad-Debug-2b7936fccac956cdd24e.json",
 					"name" : "glad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@fa9f4482d3a2b070f206",
-					"jsonFile" : "target-glfw-Release-a3dfe958580d5b2f360b.json",
+					"jsonFile" : "target-glfw-Debug-118c401197168e2f927c.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glm::@ce54d98d7b326a3e12a8",
-					"jsonFile" : "target-glm-Release-691245bce73ce60e2090.json",
+					"jsonFile" : "target-glm-Debug-81ca71fe6302054a6800.json",
 					"name" : "glm",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "objreader::@fe69842f7a07b275738d",
-					"jsonFile" : "target-objreader-Release-e7aa311f0d5f5f90b5cb.json",
+					"jsonFile" : "target-objreader-Debug-b464e86fcc11c162999d.json",
 					"name" : "objreader",
 					"projectIndex" : 5
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "spdlog::@eb35cfce7893ccfeff1e",
-					"jsonFile" : "target-spdlog-Release-3c46e14950e7ba35615b.json",
+					"jsonFile" : "target-spdlog-Debug-e593babb2db9c1b3c9ac.json",
 					"name" : "spdlog",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "uninstall::@369fad943889a5ec39c8",
-					"jsonFile" : "target-uninstall-Release-e31cf42c4b862aeea601.json",
+					"jsonFile" : "target-uninstall-Debug-a72a5975a92a93da5136.json",
 					"name" : "uninstall",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "update_mappings::@fa9f4482d3a2b070f206",
-					"jsonFile" : "target-update_mappings-Release-8f5a8ab085339f1145a8.json",
+					"jsonFile" : "target-update_mappings-Debug-a2f63e468a44a87eb5d7.json",
 					"name" : "update_mappings",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "xe-engine::@6de0204676fa90e31894",
-					"jsonFile" : "target-xe-engine-Release-7dd04f23e8e098cbbc5c.json",
+					"jsonFile" : "target-xe-engine-Debug-e5b7f00d6094a7ddbdd2.json",
 					"name" : "xe-engine",
 					"projectIndex" : 6
 				}
@@ -651,7 +687,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/jakub/Documents/Git/3d23/cmake-build-release",
+		"build" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug",
 		"source" : "/Users/jakub/Documents/Git/3d23"
 	},
 	"version" : 

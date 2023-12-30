@@ -112,6 +112,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Zoom/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/CameraMovement/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

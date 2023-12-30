@@ -277,6 +277,15 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+CameraMovement_BINARY_DIR:STATIC=/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/CameraMovement
+
+//Value Computed by CMake
+CameraMovement_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+CameraMovement_SOURCE_DIR:STATIC=/Users/jakub/Documents/Git/3d23/src/Assignments/CameraMovement
+
+//Value Computed by CMake
 Engine_BINARY_DIR:STATIC=/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Engine
 
 //Value Computed by CMake
@@ -705,7 +714,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

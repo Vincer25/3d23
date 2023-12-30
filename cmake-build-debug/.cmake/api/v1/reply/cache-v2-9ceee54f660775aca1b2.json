@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Release"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/CMakeFiles/pkgRedirects"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -983,7 +983,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "18"
+			"value" : "19"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1442,6 +1442,42 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "CameraMovement_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/CameraMovement"
+		},
+		{
+			"name" : "CameraMovement_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CameraMovement_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/jakub/Documents/Git/3d23/src/Assignments/CameraMovement"
+		},
+		{
 			"name" : "Engine_BINARY_DIR",
 			"properties" : 
 			[
@@ -1451,7 +1487,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Engine"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Engine"
 		},
 		{
 			"name" : "Engine_IS_TOP_LEVEL",
@@ -1487,7 +1523,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1647,7 +1683,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-build"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/_deps/glfw-build"
 		},
 		{
 			"name" : "GLFW_BUILD_Assignments",
@@ -1779,7 +1815,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glfw-src"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/_deps/glfw-src"
 		},
 		{
 			"name" : "GLM_BUILD_INSTALL",
@@ -1827,7 +1863,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug"
 		},
 		{
 			"name" : "Graphics3DCode_IS_TOP_LEVEL",
@@ -1863,7 +1899,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/House"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/House"
 		},
 		{
 			"name" : "House_IS_TOP_LEVEL",
@@ -1899,7 +1935,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Indices"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Indices"
 		},
 		{
 			"name" : "Indices_IS_TOP_LEVEL",
@@ -1935,7 +1971,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/ObjectReader"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/ObjectReader"
 		},
 		{
 			"name" : "OBJReader_IS_TOP_LEVEL",
@@ -2019,7 +2055,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/PVM"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/PVM"
 		},
 		{
 			"name" : "PVM_IS_TOP_LEVEL",
@@ -2055,7 +2091,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Pyramid"
 		},
 		{
 			"name" : "Pyramid_IS_TOP_LEVEL",
@@ -2091,7 +2127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Resizing"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Resizing"
 		},
 		{
 			"name" : "Resizing_IS_TOP_LEVEL",
@@ -2439,7 +2475,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Triangle"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Triangle"
 		},
 		{
 			"name" : "Triangle_IS_TOP_LEVEL",
@@ -2475,7 +2511,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Uniforms"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Uniforms"
 		},
 		{
 			"name" : "Uniforms_IS_TOP_LEVEL",
@@ -2511,7 +2547,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/XeEngine"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/XeEngine"
 		},
 		{
 			"name" : "XeEngine_IS_TOP_LEVEL",
@@ -2547,7 +2583,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Zoom"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Assignments/Zoom"
 		},
 		{
 			"name" : "Zoom_IS_TOP_LEVEL",
@@ -2595,7 +2631,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Application"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/src/Application"
 		},
 		{
 			"name" : "application_IS_TOP_LEVEL",
@@ -2631,7 +2667,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-build"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/_deps/glm-build"
 		},
 		{
 			"name" : "glm_IS_TOP_LEVEL",
@@ -2655,7 +2691,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/glm-src"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/_deps/glm-src"
 		},
 		{
 			"name" : "spdlog_BINARY_DIR",
@@ -2667,7 +2703,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-build"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/_deps/spdlog-build"
 		},
 		{
 			"name" : "spdlog_IS_TOP_LEVEL",
@@ -2691,7 +2727,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-release/_deps/spdlog-src"
+			"value" : "/Users/jakub/Documents/Git/3d23/cmake-build-debug/_deps/spdlog-src"
 		}
 	],
 	"kind" : "cache",
