@@ -21,7 +21,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
@@ -33,7 +34,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -43,7 +44,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Debug-a20c0d3d1471b4f4e27c.json",
+					"jsonFile" : "directory-_deps.glfw-build-Debug-c3fc5fb03a332147e991.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -53,13 +54,13 @@
 					"source" : "cmake-build-debug/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Debug-c8590606ee5d26c5c130.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-307ef98d72582bf9f28d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -69,8 +70,8 @@
 					"source" : "cmake-build-debug/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						10,
-						15
+						11,
+						16
 					]
 				},
 				{
@@ -100,7 +101,7 @@
 					"source" : "cmake-build-debug/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -115,7 +116,7 @@
 					"source" : "cmake-build-debug/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -130,7 +131,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -145,7 +146,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -160,7 +161,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -175,7 +176,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -190,7 +191,7 @@
 					"source" : "src/Assignments/Triangle",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -235,7 +236,7 @@
 					"source" : "src/Assignments/Uniforms",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -269,6 +270,21 @@
 					]
 				},
 				{
+					"build" : "src/Assignments/Resizing",
+					"jsonFile" : "directory-src.Assignments.Resizing-Debug-fd5584c2867d70ab3d85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "src/Assignments/Resizing",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
 					"build" : "src/Assignments/Zoom",
 					"jsonFile" : "directory-src.Assignments.Zoom-Debug-3bc1cbe47ab3e2b1aade.json",
 					"minimumCMakeVersion" : 
@@ -276,11 +292,11 @@
 						"string" : "3.15"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 14,
+					"projectIndex" : 15,
 					"source" : "src/Assignments/Zoom",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				}
 			],
@@ -303,7 +319,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					],
 					"directoryIndexes" : 
 					[
@@ -312,7 +329,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -325,9 +342,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10,
-						14,
-						15
+						11,
+						15,
+						16
 					]
 				},
 				{
@@ -340,7 +357,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -352,7 +369,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -364,7 +381,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -376,7 +393,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -388,7 +405,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -400,7 +417,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -412,7 +429,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -448,7 +465,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -480,11 +497,23 @@
 					[
 						16
 					],
+					"name" : "Resizing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
 					"name" : "Zoom",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				}
 			],
@@ -519,6 +548,13 @@
 					"projectIndex" : 13
 				},
 				{
+					"directoryIndex" : 16,
+					"id" : "Resizing::@80b58e68574a65d33c27",
+					"jsonFile" : "target-Resizing-Debug-febf330297d7f1f3a6a8.json",
+					"name" : "Resizing",
+					"projectIndex" : 14
+				},
+				{
 					"directoryIndex" : 10,
 					"id" : "Triangle::@ee163803f4c0a4b34178",
 					"jsonFile" : "target-Triangle-Debug-22cf06358ff98897ad4e.json",
@@ -533,11 +569,11 @@
 					"projectIndex" : 11
 				},
 				{
-					"directoryIndex" : 16,
+					"directoryIndex" : 17,
 					"id" : "Zoom::@d3a55d88706d926832ee",
 					"jsonFile" : "target-Zoom-Debug-a29a644c96cb1f52850e.json",
 					"name" : "Zoom",
-					"projectIndex" : 14
+					"projectIndex" : 15
 				},
 				{
 					"directoryIndex" : 6,

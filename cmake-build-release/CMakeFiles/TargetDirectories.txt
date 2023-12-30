@@ -110,6 +110,13 @@
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/install.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/install/local.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Pyramid/CMakeFiles/install/strip.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Resizing/CMakeFiles/Resizing.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Resizing/CMakeFiles/edit_cache.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Resizing/CMakeFiles/rebuild_cache.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Resizing/CMakeFiles/list_install_components.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Resizing/CMakeFiles/install.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Resizing/CMakeFiles/install/local.dir
+/Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Resizing/CMakeFiles/install/strip.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Zoom/CMakeFiles/Zoom.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Zoom/CMakeFiles/edit_cache.dir
 /Users/jakub/Documents/Git/3d23/cmake-build-release/src/Assignments/Zoom/CMakeFiles/rebuild_cache.dir

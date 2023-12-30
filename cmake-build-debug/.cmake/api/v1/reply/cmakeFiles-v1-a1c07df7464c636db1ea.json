@@ -402,6 +402,9 @@
 			"path" : "src/Assignments/Pyramid/CMakeLists.txt"
 		},
 		{
+			"path" : "src/Assignments/Resizing/CMakeLists.txt"
+		},
+		{
 			"path" : "src/Assignments/Zoom/CMakeLists.txt"
 		}
 	],
