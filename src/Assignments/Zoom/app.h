@@ -21,6 +21,8 @@ public:
 
     void frame() override;
 
+    void framebuffer_resize_callback(int w, int h) override;
+
     void set_camera(Camera *camera) { camera_ = camera; }
     Camera *camera() { return camera_; }
     ~SimpleShapeApplication() {
@@ -38,5 +40,4 @@ private:
     GLuint vao_;
     GLuint vertex_buffer;
     Camera *camera_;
-    glm::mat4 model;
 };

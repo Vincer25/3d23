@@ -65,7 +65,6 @@ void SimpleShapeApplication::init() {
     glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
-
     glGenBuffers(1, &vertex_buffer);
     glBindBuffer(GL_UNIFORM_BUFFER, vertex_buffer);
     glBufferData(GL_UNIFORM_BUFFER, 16 * sizeof(GLfloat), 0, GL_STATIC_DRAW);
@@ -86,13 +85,18 @@ void SimpleShapeApplication::init() {
     glEnableVertexAttribArray(1);
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), reinterpret_cast<GLvoid *>(3 * sizeof(GLfloat)));
 
-    model = glm::mat4(1.0f);
+    int w, h;
+    std::tie(w, h) = frame_buffer_size();
+    auto aspect_ = (float)w/h;
+    auto fov_ = glm::pi<float>()/4.0;
+    auto near_ = 0.1f;
+    auto far_ = 100.0f;
 
     camera_->look_at(glm::vec3(2.0f, -1.f, 2.0f),
                      glm::vec3(0.0f, 0.0f, 0.0f),
                      glm::vec3(0.0f, 1.0f, 0.0f));
 
-    camera_->perspective(1.0f, 1.0f, 1.0f, 5.0f);
+    camera_->perspective(fov_, aspect_, near_, far_);
 
     GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
     glUniformBlockBinding(program, blockIndex, 1);
@@ -106,7 +110,6 @@ void SimpleShapeApplication::init() {
     glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
 
     // This setups an OpenGL vieport of the size of the whole rendering window.
-    auto[w, h] = frame_buffer_size();
     glViewport(0, 0, w, h);
 
     glUseProgram(program);
@@ -114,12 +117,18 @@ void SimpleShapeApplication::init() {
 
 //This functions is called every frame and does the actual rendering.
 void SimpleShapeApplication::frame() {
-    auto PVM = camera_->projection() * camera_->view() * model;
+    auto PVM = camera_->projection() * camera_->view();
     glBindBuffer(GL_UNIFORM_BUFFER, vertex_buffer);
-    glBufferSubData(GL_UNIFORM_BUFFER,0, sizeof(glm::mat4), &PVM);
+    glBufferSubData(GL_UNIFORM_BUFFER,0, sizeof(glm::mat4), &PVM[0]);
 
     // Binding the VAO will setup all the required vertex buffers.
     glBindVertexArray(vao_);
     glDrawArrays(GL_TRIANGLES, 0, 18);
     glBindVertexArray(0);
+}
+
+void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
+    Application::framebuffer_resize_callback(w, h);
+    glViewport(0,0,w,h);
+    camera_->set_aspect((float) w / h);
 }
