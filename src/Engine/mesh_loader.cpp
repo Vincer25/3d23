@@ -13,11 +13,15 @@
 
 #include "ObjectReader/obj_reader.h"
 #include "Engine/Material.h"
+#include "Engine/ColorMaterial.h"
 #include "Engine/Mesh.h"
+#include "Engine/PhongMaterial.h"
+#include "Engine/Texture.h"
 
 
 namespace {
     xe::ColorMaterial *make_color_material(const xe::mtl_material_t &mat, std::string mtl_dir);
+    xe::PhongMaterial *make_phong_material(const xe::mtl_material_t &mat, std::string mtl_dir);
 }
 
 namespace xe {
@@ -102,6 +106,9 @@ namespace xe {
                     case 0:
                         material = make_color_material(mat, mtl_dir);
                         break;
+                    case 1:
+                        material = make_phong_material(mat, mtl_dir);
+                        break;
                 }
 
                 mesh->add_submesh(sm.start, sm.end, material);
@@ -123,6 +130,32 @@ namespace xe {
                 color[i] = mat.diffuse[i];
             color[3] = 1.0;
             auto material = new xe::ColorMaterial(color);
+            if (!mat.diffuse_texname.empty()) {
+                auto texture = xe::create_texture(mtl_dir + "/" + mat.diffuse_texname);
+                if (texture > 0) {
+                    material->set_texture(texture);
+                }
+            }
+
+            return material;
+        }
+
+        xe::PhongMaterial *make_phong_material(const xe::mtl_material_t &mat, std::string mtl_dir) {
+
+            glm::vec4 color;
+            for (int i = 0; i < 3; i++)
+                color[i] = mat.diffuse[i];
+            color[3] = 1.0;
+            glm::vec3 specular;
+            for(int i = 0; i < 3; i++) {
+                specular[i] = mat.specular[i];
+            }
+            glm::vec3 ambient;
+            for(int i = 0; i < 3; i++) {
+                ambient[i] = mat.ambient[i];
+            }
+            float specularStrength = mat.shininess;
+            auto material = new xe::PhongMaterial(color, ambient, specular, specularStrength);
             if (!mat.diffuse_texname.empty()) {
                 auto texture = xe::create_texture(mtl_dir + "/" + mat.diffuse_texname);
                 if (texture > 0) {

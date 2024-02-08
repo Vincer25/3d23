@@ -13,6 +13,7 @@
 #include <glm/gtc/constants.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+#include <Engine/ColorMaterial.h>
 
 void SimpleShapeApplication::init() {
     set_camera(new Camera);

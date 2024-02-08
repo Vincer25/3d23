@@ -18,6 +18,7 @@
 
 #include "3rdParty/stb/stb_image.h"
 #include "Engine/mesh_loader.h"
+#include <Engine/ColorMaterial.h>
 
 void SimpleShapeApplication::init() {
     set_camera(new Camera);

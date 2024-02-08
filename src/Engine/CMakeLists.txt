@@ -8,6 +8,12 @@ add_library(engine
         Material.h Material.cpp
         mesh_loader.h 
         mesh_loader.cpp
+        ColorMaterial.h 
+        ColorMaterial.cpp
+        PhongMaterial.h 
+        PhongMaterial.cpp
+        Texture.h
+        Texture.cpp
         )
 
 target_link_libraries(engine PUBLIC objreader)        

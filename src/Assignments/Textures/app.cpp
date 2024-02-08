@@ -17,6 +17,7 @@
 #define STB_IMAGE_IMPLEMENTATION  1
 
 #include "3rdParty/stb/stb_image.h"
+#include <Engine/ColorMaterial.h>
 
 void SimpleShapeApplication::init() {
     set_camera(new Camera);
